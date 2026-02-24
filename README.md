@@ -1,6 +1,6 @@
 # OpenGradient Plugin for Claude Code
 
-A [Claude Code plugin](https://docs.anthropic.com/en/docs/claude-code/plugins) that provides expert guidance for the [OpenGradient Python SDK](https://docs.opengradient.ai) — a decentralized AI inference platform.
+A [Claude Code plugin](https://docs.anthropic.com/en/docs/claude-code/plugins) that provides expert guidance for the [OpenGradient Python SDK](https://docs.opengradient.ai) - a decentralized AI inference platform.
 
 ## What it does
 
