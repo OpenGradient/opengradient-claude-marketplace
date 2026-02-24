@@ -259,7 +259,7 @@ MCP (Model Context Protocol) servers give agents access to external tools. When 
 - `name` (string) — identifier for the server
 - `url` (string) — endpoint URL
 - `authorization_token` (string|null) — optional auth token
-- `allowed_tools` (string[]|null) — optional filter; `null` exposes all tools
+- `allowed_tools` (string[]|null) — optional filter; `null` exposes all tools. Filter to tools that are necessary to the workflow to avoid prompt length blowing up.
 
 ## Data Models
 
