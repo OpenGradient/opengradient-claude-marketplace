@@ -26,7 +26,7 @@ claude plugin add /path/to/claude-plugin
 Invoke the skill in Claude Code:
 
 ```
-/opengradient write a streaming chat completion with tool calling
+/opengradient-sdk write a streaming chat completion with tool calling
 ```
 
 Or just describe what you want to build with OpenGradient — Claude will automatically use the skill when relevant.
