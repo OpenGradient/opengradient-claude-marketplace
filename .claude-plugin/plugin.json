@@ -1,0 +1,10 @@
+{
+    "name": "opengradient-plugin",
+    "description": "Expert guidance for the OpenGradient Python SDK — a decentralized AI inference platform. Helps write correct, idiomatic code for verified LLM inference via TEE, x402 payment settlement, multi-provider models (OpenAI, Anthropic, Google, xAI), on-chain ONNX model inference, LangChain agent integration, digital twins chat, and model hub operations.",
+    "version": "1.0.0",
+    "author": {
+        "name": "OpenGradient",
+        "url": "https://opengradient.ai"
+    },
+    "homepage": "https://docs.opengradient.ai"
+}

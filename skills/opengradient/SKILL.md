@@ -1,5 +1,5 @@
 ---
-name: opengradient
+name: sdk
 description: >
   Use when the user wants to write code using the OpenGradient SDK, including
   LLM inference, chat completions, streaming, tool calling, on-chain model
