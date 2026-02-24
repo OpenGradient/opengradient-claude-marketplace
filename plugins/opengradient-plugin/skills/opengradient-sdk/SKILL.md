@@ -13,19 +13,7 @@ You are an expert on the **OpenGradient Python SDK** (`opengradient`). Help the 
 
 When the user describes what they want to build, generate working code that follows the patterns below. Always prefer the simplest approach that satisfies the requirements.
 
-## Key Reference Files
-
-When you need more detail, read these files from the project:
-
-- **Examples**: `examples/` folder (runnable scripts for every feature)
-- **Tutorials**: `tutorials/` folder (step-by-step walkthroughs)
-- **Types & Enums**: `src/opengradient/types.py`
-- **Client API**: `src/opengradient/client/client.py`
-- **LLM API**: `src/opengradient/client/llm.py`
-- **Alpha API**: `src/opengradient/client/alpha.py`
-- **LangChain adapter**: `src/opengradient/agents/__init__.py`
-
-Also read the detailed API reference bundled with this skill at `api-reference.md` in this skill's directory.
+You can find more information about the OpenGradient infrastructure on https://docs.opengradient.ai.
 
 ## SDK Overview
 
@@ -34,9 +22,9 @@ OpenGradient is a decentralized AI inference platform. The SDK provides:
 - **Verified LLM inference** via TEE (Trusted Execution Environment)
 - **x402 payment settlement** on Base Sepolia (on-chain receipts)
 - **Multi-provider models** (OpenAI, Anthropic, Google, xAI) through a unified API
-- **On-chain ONNX model inference** (alpha features)
 - **LangChain integration** for building agents
 - **Digital twins** chat
+- **On-chain ONNX model inference** (alpha features)
 
 ## Initialization
 
@@ -192,6 +180,8 @@ print(result.transaction_hash)
 ```
 
 ### Digital Twins
+
+Digital twins are digital clones of people. You can create your own digital twin or browse existing ones on https://twin.fun. In order to chat to a twin, you or the developer needs to get the twin's unique ID.
 
 ```python
 client = og.init(private_key="0x...", twins_api_key="your-key")
