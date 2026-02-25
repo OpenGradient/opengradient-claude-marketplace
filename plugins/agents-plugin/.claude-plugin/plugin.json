@@ -1,0 +1,11 @@
+{
+    "name": "og-agents-plugin",
+    "description": "Create, deploy, monitor, and manage verifiable AI agents on the OpenGradient agent executor. Supports agent registration, MCP tool integration, cron scheduling, on-demand runs, and run history inspection.",
+    "version": "1.0.0",
+    "author": {
+        "name": "OpenGradient",
+        "url": "https://opengradient.ai"
+    },
+    "homepage": "https://github.com/OpenGradient/og-agent-executor",
+    "skills": "./skills/"
+}

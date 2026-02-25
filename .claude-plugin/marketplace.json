@@ -9,11 +9,6 @@
         "name": "opengradient-plugin",
         "source": "./plugins/opengradient-plugin",
         "description": "Adds the /opengradient-sdk skill to Claude Code, providing guidance for the OpenGradient Python SDK - a decentralized AI inference platform. Helps write correct, idiomatic code for verified LLM inference via TEE, x402 payment settlement, multi-provider models (OpenAI, Anthropic, Google, xAI), on-chain ONNX model inference, LangChain agent integration, digital twins chat, and model hub operations."
-      },
-      {
-        "name": "personal-agents-plugin",
-        "source": "./plugins/personal-agents-plugin",
-        "description": "Adds the /personal-agents skill to Claude Code for creating, deploying, monitoring, and managing personal AI agents on the OpenGradient agent executor. Supports agent registration, MCP tool integration, cron scheduling, on-demand runs, run history inspection, and agent definition files."
       }
     ]
   }
